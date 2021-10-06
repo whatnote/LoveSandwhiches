@@ -52,7 +52,8 @@ def validate_data(values):
 
     return True
 
-
+"""
+refactured codes:
 def update_sales_worksheet(data):
     """
     update sales worksheet, ass new row with the list data provided.
@@ -71,7 +72,7 @@ def update_surplus_worksheet(data):
     surplus_worksheet = SHEET.worksheet("surplus")
     surplus_worksheet.append_row(data)
     print("Surplus worksheet updated successfully.\n")
-
+"""
 
 def update_worksheet(data, worksheet):
     """
